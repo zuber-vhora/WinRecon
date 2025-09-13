@@ -34,5 +34,6 @@ The script targets likely locations where credentials, notes, or configuration f
 
 Example:
 
+```Output
 C:\Users\Alice\Documents\Passwords.txt | Keyword: Passwords | Type: FileName
 C:\Users\Alice\AppData\Local\Packages\Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe\LocalState\plum.sqlite | Keyword: Notes | Type: FileContent
