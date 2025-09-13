@@ -26,3 +26,13 @@ The script targets likely locations where credentials, notes, or configuration f
 3. Run the script:
    ```powershell
    .\WinRecon.ps1
+4. Results will be saved in recon_results.txt
+
+## Output Format
+
+<Path> | Keyword: <keyword> | Type: <Folder/FileName/FileContent>
+
+Example:
+
+C:\Users\Alice\Documents\Passwords.txt | Keyword: Passwords | Type: FileName
+C:\Users\Alice\AppData\Local\Packages\Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe\LocalState\plum.sqlite | Keyword: Notes | Type: FileContent
